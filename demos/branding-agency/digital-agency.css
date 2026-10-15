@@ -165,6 +165,45 @@ footer .footer-logo img {
 footer a:hover, .footer-navbar li a:hover {
     color: var(--dark-gray);
 }
+/* icon fonts */
+.bi,
+.feather,
+[class^="line-icon-"],
+[class*=" line-icon-"] {
+    font-family: "Material Symbols Outlined" !important;
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: "liga";
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    -webkit-font-smoothing: antialiased;
+}
+.bi::before,
+.feather::before,
+[class^="line-icon-"]::before,
+[class*=" line-icon-"]::before {
+    font-family: "Material Symbols Outlined" !important;
+    font-feature-settings: "liga";
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.bi.bi-emoji-smile::before { content: "sentiment_satisfied"; }
+.bi.bi-megaphone::before { content: "campaign"; }
+.bi.bi-briefcase::before { content: "work"; }
+.bi.bi-arrow-up-right::before,
+.feather.icon-feather-arrow-up-right::before { content: "arrow_outward"; }
+.bi.bi-envelope::before { content: "mail"; }
+.line-icon-Arrow-OutLeft::before,
+.feather.icon-feather-arrow-left::before { content: "arrow_back"; }
+.line-icon-Arrow-OutRight::before,
+.feather.icon-feather-arrow-right::before { content: "arrow_forward"; }
+.feather.icon-feather-arrow-up::before { content: "arrow_upward"; }
+.feather.icon-feather-phone-call::before { content: "call"; }
+.line-icon-Vector-5::before { content: "design_services"; }
+.line-icon-Laptop-Secure::before { content: "laptop_chromebook"; }
+.line-icon-Archery-2::before { content: "track_changes"; }
+.line-icon-Management::before { content: "groups"; }
+.line-icon-Handshake::before { content: "handshake"; }
+.line-icon-Moustache-Smiley::before { content: "sentiment_very_satisfied"; }
+.line-icon-Speach-Bubbles::before { content: "forum"; }
 /* media query responsive */
 @media (max-width: 1600px) {
     .fs-140 {

@@ -1,6 +1,6 @@
 /* -------------------------------------------------------
  
- Theme Name: Crafto - The Multipurpose HTML5 Template
+ Theme Name: Pearl Creation
  Theme URL: https://craftohtml.Mqlus.com/
  Description: Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 60+ ready demos.
  Author: Mqlus - https://www.Mqlus.com/
